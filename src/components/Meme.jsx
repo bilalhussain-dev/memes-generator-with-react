@@ -12,7 +12,7 @@ function Meme() {
                 type="text" 
                 className="input-form input-form-2" 
                 placeholder='Last Text'/>
-            <button className="btn btn-app-button">Generate A Meme</button>
+            <button className="btn btn-app-button" onClick={(event) => alert('Saved')}>Generate A Meme</button>
         </form>
     </div>
   )
