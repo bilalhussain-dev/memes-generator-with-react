@@ -66,3 +66,32 @@
   outline: none;
   border: 2px solid #eee;
 }
+
+
+
+
+/* Counter */
+
+.counter {
+  width: 80%;
+  margin: 30px auto;
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-counter {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: rgb(15, 196, 15);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin: 0 .8rem;
+}
